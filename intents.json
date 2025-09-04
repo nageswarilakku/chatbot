@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", 
+        "What's up?", "How are you?", "Is anyone there?", "Yo", "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you?", 
+        "Hi there — what can I do for you?", 
+        "Hey! Nice to see you here."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Take care", "Catch you later", 
+        "See ya", "I’m leaving now", "Talk to you soon", "Farewell", "Later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.", 
+        "See you soon!", 
+        "Take care — come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Much appreciated", 
+        "I’m grateful", "That was helpful", "Thx", "Cheers", 
+        "Thanks buddy", "Thank you so much"
+      ],
+      "responses": [
+        "You’re welcome!", 
+        "Anytime!", 
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "about_ai",
+      "patterns": [
+        "What is AI?", "Tell me about AI", "Explain artificial intelligence", 
+        "Define AI", "What does AI mean?", "Can you explain AI?", 
+        "What is artificial intelligence used for?", "Examples of AI?", 
+        "What is machine intelligence?", "What are AI applications?"
+      ],
+      "responses": [
+        "AI is the simulation of human intelligence by machines.", 
+        "Artificial Intelligence enables machines to learn, reason, and make decisions.", 
+        "AI powers applications like chatbots, self-driving cars, and recommendation systems."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather today?", "Is it raining?", "How’s the weather outside?", 
+        "Will it rain tomorrow?", "Weather update please", "Is it sunny today?", 
+        "Do I need an umbrella?", "Is it hot outside?", "Tell me today’s weather", "What’s the forecast?"
+      ],
+      "responses": [
+        "I can’t check live weather, but you can use a weather app 🌦️", 
+        "I don’t have real-time weather info, but I recommend checking Google Weather.", 
+        "Sorry, I can’t fetch weather updates, but weather apps are super accurate!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?", "Who are you?", "Tell me your name", 
+        "Do you have a name?", "Introduce yourself", "What should I call you?"
+      ],
+      "responses": [
+        "I’m your friendly chatbot 🤖", 
+        "You can call me ChatBot!", 
+        "I’m a virtual assistant built to help you."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?", "What’s your age?", "When were you created?", 
+        "Are you old?", "How long have you existed?"
+      ],
+      "responses": [
+        "I don’t have an age like humans.", 
+        "I’m as old as the code running me 😅", 
+        "Age doesn’t apply to me, but thanks for asking!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny", 
+        "Do you know jokes?", "Cheer me up", "One joke please"
+      ],
+      "responses": [
+        "Why don’t scientists trust atoms? Because they make up everything 😂", 
+        "I tried to catch fog yesterday… Mist!", 
+        "Why was the math book sad? Because it had too many problems."
+      ]
+    }
+  ]
+}
